@@ -15,3 +15,5 @@ class Solution:
                 reverse(start, i-1)
                 start = i+ 1
         return "".join(s)
+
+        #return ' '.join(s.split()[::-1])
